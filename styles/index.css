@@ -3,3 +3,65 @@
     margin: 0;
     text-decoration: none;
 }
+main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#above-fold{
+    background-image: url("../images/bluebg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#top-nav{
+    text-align: center;
+}
+#top-nav ul{
+    display: inline;
+    text-align: center;
+}
+#top-nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+#top-nav ul li a{
+    color: white;
+}
+.active, span{
+    color: orange;
+}
+#about{
+    position: relative;
+    padding: 20px 50px;
+}
+#text{
+    margin-top: 50px;
+}
+.btn{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: rgb(252, 190, 74);
+    display: inline-block;
+    color: black;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+#avatar img{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
+}
+section{
+    background-color: #eee;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 10px;
+}

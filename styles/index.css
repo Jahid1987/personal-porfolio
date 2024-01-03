@@ -95,7 +95,7 @@ section{
 section h4, h2{
     margin-bottom: 10px;
 }
-#individual{
+.individual{
     display: flex;
     justify-content: space-around;
     flex-direction: row;

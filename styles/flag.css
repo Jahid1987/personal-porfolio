@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 100vh;
+    background-color: #eee;
+}
+.flag-base{
+    height: 240px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.flag-circle{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.flag-stand{
+    width: 8px;
+    height: 50vh;
+    background-color: black;
+}

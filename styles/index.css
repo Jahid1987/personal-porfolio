@@ -91,7 +91,50 @@ a{
 section{
     padding: 50px 200px;
     text-align: center;
+    position: relative;
 }
+.ring-container{
+    position: absolute;
+    top: -60px;
+    z-index: -1;
+}
+.ring-out{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  position: relative;
+}
+.ring-in{
+    width: 85px;
+    height: 85px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.blue-ring{
+    width: 75px;
+    height: 75px;
+    background-color: #122864;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ring-in2{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
 section h4, h2{
     margin-bottom: 10px;
 }
@@ -124,3 +167,5 @@ section h4, h2{
     margin: 10px 0;
     font-weight: 550;
 }
+ /* Circle CSS */
+
